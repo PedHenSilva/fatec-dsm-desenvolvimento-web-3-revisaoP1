@@ -2,6 +2,9 @@
 
 Coletânea de exercícios em **Node.js**, desenvolvidos como revisão da disciplina **Desenvolvimento Web III** — FATEC Diadema, cobrindo os fundamentos trabalhados: manipulação de arquivos, JSON, CSV e criação de servidores HTTP nativos.
 
+## 🚀 Tecnologias Utilizadas
+> ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ## 📋 Exercícios
 
 | # | Tema | Conceito principal |
@@ -63,14 +66,6 @@ node script.js
 ```
 
 ---
-
-## 🚀 Tecnologias Utilizadas
-
-- **Node.js** — módulos nativos `fs`, `http`, `url` e `path` (nenhuma dependência externa em nenhum exercício)
-- **JavaScript (ES6+)** — async/await, Promises
-- **JSON** e **CSV** como formatos de dados
-- **Fetch API** (client-side, na Questão 3)
-
 ## 📁 Estrutura do Repositório
 
 ```
