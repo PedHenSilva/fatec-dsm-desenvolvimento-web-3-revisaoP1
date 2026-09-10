@@ -1,0 +1,13 @@
+{
+  "name": "questao2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "keywords": [],
+  "author": "Pedro Henrique Oliveira Silva",
+  "license": "ISC",
+  "type": "module"
+}

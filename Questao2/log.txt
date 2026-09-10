@@ -1,0 +1,19 @@
+Novo acesso registrado em: [2026-09-09T08:45:01.000Z] INFO  [com.api.auth.SecurityConfig] Initializing authentication handshake for session_id: 8f2d9a1c 
+Novo acesso registrado em: [2026-09-09T08:45:02.000Z] INFO  [com.api.controllers.UserController] GET /api/v1/users/profile - IP: 192.168.1.45 - Status: 200 OK 
+Novo acesso registrado em: [2026-09-09T08:45:05.000Z] WARN  [com.api.services.CacheService] Cache miss for key: user_meta_8f2d9a1c. Fetching from primary database. 
+Novo acesso registrado em: [2026-09-09T08:45:06.000Z] INFO  [com.api.db.ConnectionPool] Connection established successfully. Pool size: 14/50 
+Novo acesso registrado em: [2026-09-09T08:45:12.000Z] INFO  [com.api.controllers.CartController] POST /api/v1/cart/checkout - Payload size: 1.2KB 
+Novo acesso registrado em: [2026-09-09T08:45:15.000Z] WARN  [com.api.gateway.PaymentGateway] Connection timeout warning on ://stripe.com. Retrying attempt 1/3... 
+Novo acesso registrado em: [2026-09-09T08:45:18.000Z] INFO  [com.api.gateway.PaymentGateway] Retry successful. Payment authorized for transaction_id: tx_992104 
+Novo acesso registrado em: [2026-09-09T08:45:22.000Z] ERROR [com.api.services.NotificationService] Failed to send webhook confirmation to endpoint: https://client-webhook.com org.apache.http.conn.ConnectTimeoutException: Connect to client-webhook.com:443 failed: connect timed out     at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)     at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)     at com.api.services.NotificationService.executeRequest(NotificationService.java:84) 
+Novo acesso registrado em: [2026-09-09T08:45:23.000Z] INFO  [com.api.services.NotificationService] Webhook payload queued for asynchronous retry. Task ID: task_77b2 
+Novo acesso registrado em: [2026-09-09T08:45:30.000Z] INFO  [com.api.controllers.UserController] DELETE /api/v1/sessions/8f2d9a1c - Status: 204 No Content 
+Novo acesso registrado em: [2026-09-09T08:45:31.000Z] INFO  [com.api.auth.SecurityConfig] Session 8f2d9a1c invalidated. Context cleared. 
+Novo acesso registrado em: [2026-09-09T12:57:35.151Z]
+Novo acesso registrado em: [2026-09-09T12:57:45.095Z]
+Novo acesso registrado em: [2026-09-09T12:57:52.857Z]
+Novo acesso registrado em: [2026-09-09T12:58:45.236Z]
+Novo acesso registrado em: [2026-09-09T12:58:51.012Z]
+Novo acesso registrado em: [2026-09-09T12:58:54.786Z]
+Novo acesso registrado em: [2026-09-09T13:02:45.532Z]
+Novo acesso registrado em: [2026-09-09T13:02:52.193Z]
